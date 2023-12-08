@@ -1,9 +1,11 @@
 #include <vector>
+#include "Element.hpp"
 
+using namespace std;
 
 class Area
 {
     public:
-        virtual bool Update(vector<vector<element>>& region) = 0;
+        virtual bool Update(vector<vector<Element>>& region) = 0;
     
 };

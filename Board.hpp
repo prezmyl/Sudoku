@@ -4,6 +4,7 @@
 #include <list>
 #include <map>
 #include <stack>
+#include "Element.hpp"
 
 using namespace std;
 
@@ -11,7 +12,7 @@ using namespace std;
 class Board
 {
     private:
-        vector<vector<int>> &board;
+        vector<vector<Element&>> &board;
         int size;
 
     public:

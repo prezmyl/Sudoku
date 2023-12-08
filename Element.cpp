@@ -1,8 +1,10 @@
 #include "Element.hpp"
 
-Element::Element(int value)
+Element::Element(int value, int row, int col)
 {
     this->value = value;
+    this->row = row;
+    this->col = col;
 }
         
 int Element::GetValue()

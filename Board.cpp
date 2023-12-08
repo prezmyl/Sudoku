@@ -8,6 +8,7 @@ Board::Board(int size, vector<vector<int>> &board) : board(board)
 
 void Board::InitBoard()
 {
+    
 }
 
 

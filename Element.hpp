@@ -10,7 +10,7 @@ class Element
 
 
     public:
-        Element(int value);
+        Element(int value, int row, int col);
         int GetValue();
         int GetRow();
         int GetCol();

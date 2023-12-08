@@ -11,7 +11,8 @@ using namespace std;
 class Controller
 {
     private:
-        vector<vector<int>> &board;
+        vector<vector<Element>> board;
+        string fileName;
 
     public:
         bool LoadData();
