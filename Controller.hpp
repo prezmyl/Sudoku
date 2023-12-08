@@ -4,6 +4,7 @@
 #include <list>
 #include <map>
 #include <stack>
+#include "Element.hpp"
 
 using namespace std;
 
@@ -15,7 +16,9 @@ class Controller
         string fileName;
 
     public:
+        Controller(string filaName);
         bool LoadData();
         bool InitGame();
-        bool SaveGame();
+        bool SolveGame();
+        bool PrintGame();
 };

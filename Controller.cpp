@@ -5,6 +5,11 @@
 #include "Element.hpp"
 
 
+Controller::Controller(string fileName)
+{
+    this->fileName = fileName;
+}
+
 bool Controller::LoadData()
 {
     string line;
@@ -28,13 +33,13 @@ bool Controller::LoadData()
             vec.push_back(element);
             
         }
-        
+
         this->board.push_back(vec);
         row++;
     }
     
     
-
+    return true;
 
 }
 
@@ -44,7 +49,17 @@ bool Controller::InitGame()
 }
 
 
-bool Controller::SaveGame()
+bool Controller::PrintGame()
 {
+    for (auto &&vec : board)
+    {
+        cout << "|";
+        for (auto &&element : vec)
+        {
+            cout  << element.GetValue() << "|";
+        }
+        cout << endl;
+    }
+    
     return false;
 }

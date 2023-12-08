@@ -1,4 +1,5 @@
-
+#ifndef ELEMENT
+#define ELEMENT
 
 class Element
 {
@@ -17,3 +18,5 @@ class Element
         //void SetValue(int value);
 
 };
+
+#endif

@@ -1,7 +1,7 @@
 #include "Board.hpp"
 
 
-Board::Board(int size, vector<vector<int>> &board) : board(board) 
+Board::Board(int size, vector<vector<Element>> &board)
 {
     this->size;
 }

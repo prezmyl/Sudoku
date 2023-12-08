@@ -1,3 +1,6 @@
+
+
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -12,12 +15,13 @@ using namespace std;
 class Board
 {
     private:
-        vector<vector<Element&>> &board;
+        //vector<vector<Element>> &board;
         int size;
 
     public:
-        Board(int size, vector<vector<int>> &board);
+        Board(int size, vector<vector<Element>> &board);
         void InitBoard();
         void PrintBoard();
 
 };
+
