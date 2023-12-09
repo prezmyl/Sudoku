@@ -14,7 +14,7 @@ int main()
     ct.LoadData();
     ct.PrintGame();
 
-    
+    ct.InitAreas();
 
     return 0;
 }
